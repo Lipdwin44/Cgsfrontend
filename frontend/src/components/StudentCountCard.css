@@ -1,0 +1,23 @@
+.count-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .count-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .count-loading,
+  .count-error {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  
+  

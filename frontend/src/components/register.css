@@ -1,0 +1,66 @@
+login-container {
+    background-color: #f9a825;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .login-title {
+    background-color: #f9a825;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .student-icon img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #f9a825;
+    margin: 20px 0;
+    padding: 5px;
+  }
+  
+  .form-group .icon {
+    margin-right: 10px;
+    color: #000;
+  }
+  
+  .form-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    background-color: #f9a825;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
